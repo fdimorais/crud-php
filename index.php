@@ -12,10 +12,17 @@
 <th>Razão Social</th>
 <th>Telefone</th>
 </tr>
-<tr>
 
-</tr>
+<?php
 
+$sql = "select * from clientes";
+$result = $connect->query($sql);
+
+while($row = $result->fetch_assoc())
+{
+	print_r($row);
+}
+?>
 </table>
 
 
