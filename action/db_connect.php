@@ -1,9 +1,9 @@
 <?php
 // definindo as variáveis de conexão
-$servidor = "localhost:3307";
-$usuario  = "root";
-$senha    = "p@ssw0rd";
-$banco    = "meusistema";
+$servidor = "";
+$usuario  = "";
+$senha    = "";
+$banco    = "";
 
 // criar conexão
 $connect = new mysqli($servidor, $usuario, $senha, $banco);
